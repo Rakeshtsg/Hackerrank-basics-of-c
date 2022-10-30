@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+    char s[50],s1[100], ch;
+    scanf("%c", &ch);
+    scanf("%s", s);
+    scanf("\n");
+    scanf("%[^\n]%*c", s1);
+    printf("%c\n", ch);
+    printf("%s\n",s);
+    printf("%s", s1);
+    
+    
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
